@@ -1,0 +1,88 @@
+$heading-font: 'Poppins', sans-serif;
+$body-font: 'Raleway', sans-serif;
+
+body {
+    font-family: $body-font;
+    background-color: #eee;
+}
+p {
+    margin: 0.5em;
+}
+#card {
+    padding: 2em;
+    display: flex;
+    img {
+        height: auto;
+        align-self: center;
+        border-width: 10px;
+        border-color: #fff;
+        border: 10px solid #fff;
+    }
+
+    .img-container {
+        font-size: 12px;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+    }
+
+    .info-container {
+        margin-left: 1em;
+        width: 70%;
+        h4 {
+            margin: 0.2em;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+    }
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 27px -7px rgba(0,0,0,0.329);
+    width: 40vw;
+    height: 55vh;
+    border-radius: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 5em;
+    background: linear-gradient(#e0ebff, #e8d0ff);
+    font-family: $body-font;
+}
+
+.header {
+    background-color: rgb(200, 176, 245);
+    padding: 0.5em;
+    font-size: 1.5em;
+
+    p {
+        background-color: #fff;
+        width: fit-content;
+        padding: 0.7em;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: $heading-font;
+        letter-spacing: 1px;
+    }
+}
+
+button {
+    padding: 1em;
+    border: none;
+    color: #fff;
+    background-color: rgb(200, 176, 245);
+    border-radius: 2em;
+    width: 10vw;
+    font-family: $body-font;
+    box-shadow: 3px 4px 27px -7px rgba(0, 0, 0, 0.329);
+}
+
+.submit-wrapper { 
+    margin: 3em auto;
+    width: 10vw;
+}
+
+.gender {
+    text-transform: capitalize;
+}
